@@ -16,6 +16,9 @@ Change the below to properties in angular.json <br>
 `ng g m admin --routing` <br>
 `ng g m user --routing` <br>
 `ng g m public --routing` <br>
+
+## India Pin Code API 
+`http://www.postalpincode.in/Api-Details` <br>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

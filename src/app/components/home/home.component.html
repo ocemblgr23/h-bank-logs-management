@@ -15,6 +15,23 @@
         <input pInputText id="ko_name" [(ngModel)]="logs.ko_name" />
         <label htmlFor="ko_name">KO Name</label>
     </span>
+
+    <span class="p-float-label">
+    <p-inputMask mask="9999-999-999" [(ngModel)]="logs.contact_no" id="mobile_input"></p-inputMask>
+    <label htmlFor="mobile_input">Contact Number</label>
+    </span>
+    <span class="p-float-label">
+    <p-inputMask mask="999999" [(ngModel)]="logs.contact_no" id="pin-input"></p-inputMask>
+    <label htmlFor="pin-input">Pincode</label>
+    </span>
+    <span class="p-float-label">
+        <input pInputText id="location" [(ngModel)]="logs.location" />
+        <label htmlFor="location">Location</label>
+    </span>
+    <span class="p-float-label">
+        <input pInputText id="district" [(ngModel)]="logs.district" />
+        <label htmlFor="district">District</label>
+    </span>
   </div>
 </div>
 <!--Logs Form End -->
